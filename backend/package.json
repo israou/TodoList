@@ -1,0 +1,18 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Backend Express + MongoDB pour todo list",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "cors": "^2.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
